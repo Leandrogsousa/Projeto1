@@ -21,7 +21,7 @@ namespace SistemaLSinfo
         {
             if (progressBar1.Value <100)
             {
-                progressBar1.Value += 2;
+                progressBar1.Value += 4;
             }
             else
             {

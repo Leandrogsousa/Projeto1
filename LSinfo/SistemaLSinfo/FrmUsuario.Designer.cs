@@ -203,6 +203,7 @@
             this.btbsairusuario.Text = "Sair";
             this.btbsairusuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btbsairusuario.UseVisualStyleBackColor = false;
+            this.btbsairusuario.Click += new System.EventHandler(this.btbsairusuario_Click);
             // 
             // btnlimpardados
             // 
@@ -230,6 +231,7 @@
             this.btnexcluir.Text = "Excluir";
             this.btnexcluir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnexcluir.UseVisualStyleBackColor = false;
+            this.btnexcluir.Click += new System.EventHandler(this.btnexcluir_Click);
             // 
             // btnalterar
             // 
@@ -243,6 +245,7 @@
             this.btnalterar.Text = "Alterar";
             this.btnalterar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnalterar.UseVisualStyleBackColor = false;
+            this.btnalterar.Click += new System.EventHandler(this.btnalterar_Click);
             // 
             // btnpesquisar
             // 
