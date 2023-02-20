@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             this.lblLogin = new System.Windows.Forms.Label();
             this.lblSenha = new System.Windows.Forms.Label();
-            this.txtlogin = new System.Windows.Forms.TextBox();
-            this.txtsenha = new System.Windows.Forms.TextBox();
+            this.txtfrmlogin = new System.Windows.Forms.TextBox();
+            this.txtfrmsenha = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSair = new System.Windows.Forms.Button();
             this.btnEntrar = new System.Windows.Forms.Button();
@@ -59,23 +59,24 @@
             this.lblSenha.TabIndex = 3;
             this.lblSenha.Text = "Senha:";
             // 
-            // txtlogin
+            // txtfrmlogin
             // 
-            this.txtlogin.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.txtlogin.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtlogin.Location = new System.Drawing.Point(299, 179);
-            this.txtlogin.Name = "txtlogin";
-            this.txtlogin.Size = new System.Drawing.Size(339, 28);
-            this.txtlogin.TabIndex = 4;
+            this.txtfrmlogin.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.txtfrmlogin.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtfrmlogin.Location = new System.Drawing.Point(299, 179);
+            this.txtfrmlogin.Name = "txtfrmlogin";
+            this.txtfrmlogin.Size = new System.Drawing.Size(339, 28);
+            this.txtfrmlogin.TabIndex = 4;
             // 
-            // txtsenha
+            // txtfrmsenha
             // 
-            this.txtsenha.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.txtsenha.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtsenha.Location = new System.Drawing.Point(299, 230);
-            this.txtsenha.Name = "txtsenha";
-            this.txtsenha.Size = new System.Drawing.Size(339, 28);
-            this.txtsenha.TabIndex = 5;
+            this.txtfrmsenha.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.txtfrmsenha.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtfrmsenha.Location = new System.Drawing.Point(299, 230);
+            this.txtfrmsenha.Name = "txtfrmsenha";
+            this.txtfrmsenha.PasswordChar = '*';
+            this.txtfrmsenha.Size = new System.Drawing.Size(339, 28);
+            this.txtfrmsenha.TabIndex = 5;
             // 
             // pictureBox1
             // 
@@ -122,8 +123,8 @@
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(867, 548);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.txtsenha);
-            this.Controls.Add(this.txtlogin);
+            this.Controls.Add(this.txtfrmsenha);
+            this.Controls.Add(this.txtfrmlogin);
             this.Controls.Add(this.lblSenha);
             this.Controls.Add(this.lblLogin);
             this.Controls.Add(this.btnSair);
@@ -144,8 +145,8 @@
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Label lblLogin;
         private System.Windows.Forms.Label lblSenha;
-        private System.Windows.Forms.TextBox txtlogin;
-        private System.Windows.Forms.TextBox txtsenha;
+        private System.Windows.Forms.TextBox txtfrmlogin;
+        private System.Windows.Forms.TextBox txtfrmsenha;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

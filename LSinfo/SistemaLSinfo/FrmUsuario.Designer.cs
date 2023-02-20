@@ -216,6 +216,7 @@
             this.btnlimpardados.Text = "Limpar Dados";
             this.btnlimpardados.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnlimpardados.UseVisualStyleBackColor = false;
+            this.btnlimpardados.Click += new System.EventHandler(this.btnlimpardados_Click);
             // 
             // btnexcluir
             // 
@@ -255,6 +256,7 @@
             this.btnpesquisar.Text = "Pesquisar";
             this.btnpesquisar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnpesquisar.UseVisualStyleBackColor = false;
+            this.btnpesquisar.Click += new System.EventHandler(this.btnpesquisar_Click);
             // 
             // btnadicionar
             // 
