@@ -16,5 +16,11 @@ namespace SistemaLSinfo
         {
             InitializeComponent();
         }
+
+        private void usuárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmUsuario usu = new FrmUsuario();
+            usu.Show();
+        }
     }
 }

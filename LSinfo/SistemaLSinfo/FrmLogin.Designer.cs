@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             this.lblLogin = new System.Windows.Forms.Label();
             this.lblSenha = new System.Windows.Forms.Label();
             this.txtlogin = new System.Windows.Forms.TextBox();
@@ -60,6 +61,7 @@
             // 
             // txtlogin
             // 
+            this.txtlogin.BackColor = System.Drawing.SystemColors.MenuBar;
             this.txtlogin.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtlogin.Location = new System.Drawing.Point(299, 179);
             this.txtlogin.Name = "txtlogin";
@@ -68,6 +70,7 @@
             // 
             // txtsenha
             // 
+            this.txtsenha.BackColor = System.Drawing.SystemColors.MenuBar;
             this.txtsenha.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtsenha.Location = new System.Drawing.Point(299, 230);
             this.txtsenha.Name = "txtsenha";
@@ -77,9 +80,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::SistemaLSinfo.Properties.Resources.Logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(273, -1);
+            this.pictureBox1.Location = new System.Drawing.Point(229, -1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(449, 96);
+            this.pictureBox1.Size = new System.Drawing.Size(449, 106);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
@@ -91,7 +94,7 @@
             this.btnSair.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSair.Location = new System.Drawing.Point(394, 410);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(113, 51);
+            this.btnSair.Size = new System.Drawing.Size(117, 51);
             this.btnSair.TabIndex = 1;
             this.btnSair.Text = "Sair";
             this.btnSair.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -105,7 +108,7 @@
             this.btnEntrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEntrar.Location = new System.Drawing.Point(394, 326);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(113, 53);
+            this.btnEntrar.Size = new System.Drawing.Size(117, 53);
             this.btnEntrar.TabIndex = 0;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -116,6 +119,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(867, 548);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtsenha);
@@ -124,6 +128,7 @@
             this.Controls.Add(this.lblLogin);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnEntrar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmLogin";

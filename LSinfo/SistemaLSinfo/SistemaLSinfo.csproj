@@ -64,6 +64,12 @@
     <Compile Include="FrmPrincipal.Designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuario.Designer.cs">
+      <DependentUpon>FrmUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuario.resx">
+      <DependentUpon>FrmUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -112,6 +121,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icon - client.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img pesquisa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img alterar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img remover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img excluir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img sair002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
